@@ -1,14 +1,11 @@
 function pesquisar() {
     // Quando o botão de pesquisa for clicado, essa função será executada.
-    console.log("clicou"); // Exibe no console do navegador para indicar que o botão foi clicado.
 
     // Obtém a referência da seção onde os resultados serão exibidos
     let section = document.getElementById("resultados-pesquisa");
 
     // Obtém o valor digitado pelo usuário no campo de pesquisa
     let campoPesquisa = document.getElementById("campo-pesquisa").value;
-
-    console.log(campoPesquisa); // Exibe no console o valor da pesquisa para garantir que foi capturado corretamente.
 
     // Converte o valor do campo de pesquisa para letras minúsculas, para facilitar a comparação
     campoPesquisa = campoPesquisa.toLowerCase();
